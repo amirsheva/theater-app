@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* استایل‌های پایه */
+body {
+  @apply font-sans bg-gradient-to-br from-gray-50 to-gray-100 text-gray-800 antialiased;
+}
+
+h1, h2, h3 {
+  @apply font-bold text-gray-900;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
